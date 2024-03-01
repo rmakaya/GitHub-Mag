@@ -4,7 +4,7 @@ resource "azurerm_resource_group" "CR460_Roland" {
 }
 
 resource "azurerm_container_registry" "acr" {
-  name                = "containerRegistry1"
+  name                = "developmentteam"
   resource_group_name = azurerm_resource_group.CR460_Roland.name
   location            = azurerm_resource_group.CR460_Roland.location
   sku                 = "Premium"
