@@ -10,12 +10,12 @@ resource "azurerm_container_registry" "acr" {
   sku                 = "Premium"
   admin_enabled       = false
   georeplications {
-    location                = "East US"
+    location                = "West Europe"
     zone_redundancy_enabled = true
     tags                    = {}
   }
   georeplications {
-    location                = "East US"
+    location                = "North Europe"
     zone_redundancy_enabled = true
     tags                    = {}
   }
