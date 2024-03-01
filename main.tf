@@ -15,7 +15,7 @@ resource "azurerm_container_registry" "acr" {
     tags                    = {}
   }
   georeplications {
-    location                = "North Europe"
+    location                = "East US"
     zone_redundancy_enabled = true
     tags                    = {}
   }
