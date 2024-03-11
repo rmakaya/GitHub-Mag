@@ -3,7 +3,7 @@ terraform {
     organization = "rmakaya"
 
     workspaces {
-      name = "GitHub-Mag_Terra2"
+      name = "GitHub-Mag_Terra3"
     }
   }
 }
